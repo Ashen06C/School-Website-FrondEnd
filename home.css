@@ -1,0 +1,306 @@
+body{
+    overflow-x: hidden;
+    margin-top: 0;
+}
+.div1{
+    height: 50px;
+    background-color: rgb(219, 238, 238);
+    width: 100%;
+    z-index: 4;
+}
+.div1 a{
+    font-size: 0.4cm;
+    font-family:  sans-serif;
+    text-decoration: none;
+}
+
+.div1 ul{
+    list-style-type: none;
+    display: flex;
+    float: right;
+    margin-right: 100px;
+}
+.div1 ul li{
+    padding-left: 30px;
+}
+.header{
+    display: flex;
+    background: rgba(9, 26, 51, 0.952);
+    width: 100%;
+    z-index: 4;
+}
+.texth{
+    padding-left: 10%;
+}
+.texth h1{
+    color: gold;
+    font-size: 1cm;
+}
+.texth p{
+    color:white;
+    font-size: 0.4cm;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.photo{
+    padding-left: 20%;
+    height: 160px;    
+}
+.photo img{
+    padding-top: 10px;
+    width: 150px;
+    height: 150px;
+
+}
+.logo{
+    padding-left: 25%;
+    color: white;
+}
+.logo ul{
+    list-style-type: none;
+}
+.logo ul li{
+    padding: 5px;
+}
+.area{
+    display: flex;
+}
+.area img {
+    width: 1132px;
+    height: 450px;
+}
+.pr hr{
+   border: 1px solid rgb(58, 4, 4);
+}
+.navigation{
+    background: rgba(9, 26, 51, 0.952);
+    width:200px;
+    display: flex;
+    height: 450px;
+}
+.navigation ul{
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+.navigation a{
+    text-decoration: none;
+}
+.navigation ul a li{
+    color: rgb(206, 206, 206);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: block;
+    padding: 10px 47px 50px 30px;
+    font-size: 18px;
+    font-weight: 600;  
+    height: 10px;
+    text-align: center;
+}
+.navigation a li:hover{
+    background-color: rgb(91, 210, 236); 
+    color: black;  
+}
+.ye{
+    color: rgb(209, 212, 7);
+    font-weight: 1500;
+    font-size: 1cm;
+}
+.blue{
+    color: blue;
+    font-size: 1cm;
+}
+.them{
+    padding-top: 50px ;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.them h1{
+    font-weight: 700;
+    font-size: 0.8cm;
+}
+.them span{
+    font-size: 0.8cm;
+}
+.about p{
+    padding: 10px 200px 50px 200px;
+    font-size: 0.5cm;
+    font-weight: 600;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.about hr{
+    width: 1000px;
+    border: 1px solid black;
+}
+.about h1 {
+    text-align: center;
+    font-family: serif;
+}
+.about{
+    padding-top: 50px;
+}
+
+.contain {
+    display: flex;
+    width: 100%;
+    padding-top: 10px;
+    margin-left: 10px;
+
+}
+
+.sec1 {
+    display: inline-flex;
+    height: 600px;
+    margin-left: 200px;
+}
+
+.column {
+    display: block;
+    width: 390px;
+    border-bottom: blue 2px solid;
+    margin: 25px 25px 25px 25px;
+    background: linear-gradient(rgba(241, 244, 247, 0.486), rgba(239, 242, 243, 0.5));
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.349);
+    overflow: hidden;
+}
+
+.images {
+    height: 250px;
+    overflow: hidden;
+    background-size: cover;
+}
+
+.images img {
+    height: 250px;
+    width: 390px;
+}
+
+.images img:hover {
+    opacity: 0.9;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+
+.text {
+    font-size: 0.5cm;
+    font-weight: 800;
+    display: block;
+    width: 300px;
+    padding: 20px 0 0 20px;
+    padding-bottom: 20px;
+    height: 100px;
+}
+
+.text3 {
+    font-size: 0.5cm;
+    font-weight: 800;
+    display: block;
+    width: 300px;
+    padding: 20px 0 0 20px;
+    padding-bottom: 20px;
+    height: 100px;
+}
+
+.text3 ul li {
+    list-style: disc;
+}
+
+.text2 {
+    text-align: right;
+    display: block;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    background-color: rgb(193, 248, 248);
+}
+
+.text2 a {
+    text-decoration: none;
+    font-size: 0.4cm;
+    font-weight: 600;
+}
+.them button{
+    border-radius: 25%;
+    color:blue;
+    background-color: rgb(193, 248, 248);
+}
+.them hr{
+    border: 1px solid black;
+}
+.footer {
+    width: 100%;
+    background: linear-gradient(to right, #050a22, #1d0902);
+    color: #fff;
+    padding: 50px 0 20px;
+}
+
+.footer h3 {
+    font-family: sans-serif;
+    width: fit-content;
+    position: relative;
+}
+
+.row {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.col {
+    flex-basis: 20%;
+    padding: 10px;
+    font-size: 0.5cm;
+}
+
+.col a {
+    color: rgb(3, 139, 139);
+}
+
+.col .p {
+    width: fit-content;
+    border-bottom: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+.col button {
+    background: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    color: aquamarine;
+}
+
+.col ul  {
+    list-style: none;
+    margin-bottom: 12px;
+}
+
+.col ul  a {
+    text-decoration: none;
+    color: rgb(3, 139, 139)
+}
+
+.social-icons i {
+    padding-right: 7%;
+}
+
+.footer hr {
+    width: 90%;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    margin: 20px auto;
+}
+
+.Copyright {
+    text-align: center;
+}
+
+.Copyright a {
+    color: aqua;
+}
+
+

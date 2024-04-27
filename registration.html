@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUSSEX registration</title>
+    <link rel="stylesheet" href="registration.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <script src="registration.js"></script>
+</head>
+<body onLoad="document.registration.userid.focus();">
+<div class="div1">
+        <ul>
+            <li><i class="fa-solid fa-phone"><a href="#"> : +94772070707</a> /<a href="#"> +94705070707</a></i></li>
+            <li><i class="fa-solid fa-square-envelope"></i><a class="i" href="#"> :info@sussexcollege.net</a></li>
+        </ul>
+</div>
+<div class="header">
+        <h1>SUSSEX COLLEGE</h1>
+    <div class="logo">
+        <img src="photos/th.jpg" alt="" width="150px" height="150px">
+    </div>
+<div class="navigation">
+        <ul>
+            <a href="home.html"><li>HOME</li></a>
+            <a href="registration.html"><li>REGISTRATION</li></a>
+            <a href="login.html"><li>LOG IN</li></a>
+            <a href="contact .html"><li>CONTACT</li></a>
+            <a href="#"><li>ABOUT</li></a>
+            <a href="#"><li>LOG OUT</li></a>
+        </ul>
+</div>
+    <div class="logo">
+        <ul>
+            <li><i class="fa-brands fa-square-facebook"></i></li>
+            <li><i class="fa-brands fa-linkedin-in"></i></li>
+            <li><i class="fa-brands fa-square-twitter"></i></li>
+        </ul>
+    </div>    
+</div>
+<div class="contain">
+    <div class="a1">
+    <h1>Registration Form</h1>
+    <form name='registration' onSubmit="return formValidation();">
+    <table border="0">
+    <tr>
+    <th><label for="userid">User id:</label></th>
+    <td><input type="text" name="userid" size="12" style="opacity:0.8;"/></td>
+    </tr>
+    <tr>
+    <th><label for="passid">Password:</label></th>
+    <td><input type="password" name="passid" size="12" style="opacity:0.8;"/></td>
+    </tr>
+    <tr>
+    <th><label for="username">Name:</label></th>
+    <td><div class="a2"><input type="text" name="username" size="50" /></div></td>
+    </tr>
+    <tr>
+    <th><label for="address">Address:</label></th>
+    <td><div class="a2"><input type="text" name="address" size="50" /></div></td>
+    </tr>
+
+    <tr>
+    <th><label for="country">Country:</label></th>
+    <td>
+    <div class="a3">
+    <select name="country">
+    <option selected="" value="Default">(Please select a country)</option>
+    <option value="AF">Australia</option>
+    <option value="AL">Canada</option>
+    <option value="DZ">India</option>
+    <option value="AS">Russia</option>
+    <option value="AD">USA</option>
+    </select>
+    </div>
+    </td>
+    </tr>
+
+    <tr>
+    <th><label for="zip">ZIP Code:</label></th>
+    <td><div class="a4"><input type="text" name="zip" /></div></td>
+    </tr>
+    <tr>
+    <th><label for="email">Email:</label></th>
+    <td><div class="a2"><input type="text" name="email" size="50" /></div></td>
+    </tr>
+    <tr>
+    <th><label id="gender">Sex:</label></th>
+    <td><input type="radio" name="msex" value="Male" /><span>Male</span>
+        <input type="radio" name="msex" value="Female" /><span>Female</span>
+    </td>
+    </tr>
+    <tr>
+    <th><label>Language:</label></th>
+    <td><input type="checkbox" name="en" value="en" checked /><span>English</span>
+        <input type="checkbox" name="nonen" value="noen" /><span>Non English</span>
+    </td>
+    </tr>
+    <tr>
+    <th><label for="desc">About:</label></th>
+    <td><textarea name="desc" id="desc" rows="10" cols="50" style="opacity:0.8;"></textarea></td>
+    </tr>
+    </table>
+    <div class="sub">
+    <button type="submit" name="submit" value="Submit"><b>Submit</b></button>
+    </div>
+    </form>
+    </div>
+</div>
+<div class="footer">
+    <div class="row">
+    <div class="col">
+        <h3>Address</h3>
+        <p> <b>HEAD OFFICE</b><br>
+            No. 252, Galle Road,<br>
+            Colombo 03</p>
+        <a href="#" class="line-button">Get Direction</a>
+    </div>
+    <div class="col">
+        <h3>
+            Reservation
+        </h3>
+        <p class="footer_text">+94 112 303 797 <br>
+            info@sussexcollege.net</p>
+    </div>
+    <div class="col">
+        <h3>Navigation</h3>
+        <ul>
+            <a href="home.html"><li>HOME</li></a>
+            <a href="registration.html"><li>REGISTRATION</li></a>
+            <a href="login.html"><li>LOG IN</li></a>
+            <a href="#"><li>LOG OUT</li></a>
+            <a href="#"><li>ABOUT</li></a>
+            <a href="contact .html"><li>CONTACT</li></a>
+        </ul>
+    </div>
+    <div class="col">
+        <h3>
+            Newsletter
+        </h3>
+        <form action="#" class="newsletter_form">
+            <input type="text" placeholder="Enter your mail">
+            <button type="submit">Sign Up</button>
+        </form>
+        <p>Subscribe newsletter to get updates</p>
+        <div class="social-icons">
+            <i class="fa-brands fa-facebook"></i> 
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-whatsapp"></i>
+            <i class="fa-brands fa-instagram"></i>
+        </div>
+    </div>
+    </div>
+<hr>
+    <p class="Copyright">Copyright &copy; 2023 - All Rights Reserved | Designed by , <a href=""> # AC 06</a></p>
+</div> 
+</body>
+</html>
